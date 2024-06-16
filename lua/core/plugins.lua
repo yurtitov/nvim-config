@@ -12,7 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{ 'phaazon/hop.nvim' },
 	{ 'nvim-neo-tree/neo-tree.nvim',
         branch = "v3.x",
     	dependencies = {
@@ -26,6 +25,9 @@ require("lazy").setup({
 	{ 'neovim/nvim-lspconfig' },
 	{ 'hrsh7th/nvim-cmp' },
 	{ 'hrsh7th/cmp-nvim-lsp' },
+    { 'hrsh7th/cmp-buffer' },
+    { 'hrsh7th/cmp-path' },
+    { 'hrsh7th/cmp-cmdline' },
 	{ 'saadparwaiz1/cmp_luasnip' },
 	{ 'L3MON4D3/LuaSnip' },
 	{ 'morhetz/gruvbox' }, -- Color scheme
